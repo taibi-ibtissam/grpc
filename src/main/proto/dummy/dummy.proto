@@ -1,0 +1,11 @@
+syntax = "proto3";
+package dummy;
+
+// This is to insure that the file is correct
+option java_package ="com.proto.dummy";
+// This is to outline that we will create a number of files
+option java_multiple_files = true;
+
+message DummyMessage {}
+
+service DummyService {}
